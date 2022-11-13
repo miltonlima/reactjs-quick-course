@@ -3,6 +3,6 @@ import React from "react"
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () =>
     <>
-        <h1>Primeiro Componente (Arrow)</h1>
-        <h2>Exemplo de um componente React</h2>
+        <h3>titulo</h3>
+        <p>subtitulo</p>
     </>
