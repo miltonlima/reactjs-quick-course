@@ -9,7 +9,7 @@ import Card from './components/layout/Card'
 // eslint-disable-next-line import/no-anonymous-default-export
 export default (props) => (
     <div className="App">
-        <Card titulo="Componente Com Filhos">
+        <Card titulo="#03 - Componente Com Filhos">
             <ComFilhos>
                 <ul>
                     <li>Ana</li>
@@ -19,10 +19,10 @@ export default (props) => (
                 </ul>
             </ComFilhos>
         </Card>
-        <Card titulo="Componente Com Parametro">
+        <Card titulo="#02 - Componente Com Parametro">
             <ComParametro titulo="Esse é o título" subtitulo="Esse é o subtítulo" />
         </Card>
-        <Card titulo="Primeiro Componente">
+        <Card titulo="#01 - Primeiro Componente">
             <Primeiro />
         </Card>
         {/* <ComFilhos>
