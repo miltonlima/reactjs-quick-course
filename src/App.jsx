@@ -6,10 +6,14 @@ import ComParametro from './components/ComParametro'
 import ComFilhos from './components/ComFilhos'
 import Card from './components/layout/Card'
 import Repeticao from './components/Repeticao'
+import Condicional from './components/Condicional'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default (props) => (
     <div className="App">
+        <Card titulo="#05 - Condicional">
+            <Condicional numero={11}></Condicional>
+        </Card>
         <Card titulo="#04 - Repetição">
             <Repeticao></Repeticao>
         </Card>
